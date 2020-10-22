@@ -1,0 +1,202 @@
+a {
+  display:block;
+	padding:8px;
+	text-decoration:none;
+  color: #463333;
+}
+
+a:hover {
+  color: #B83B5E;
+}
+
+body {
+  background-color: #EEECDA;
+  font-family: 'Balsamiq Sans', cursive;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Architects Daughter', cursive;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  z-index: 10;
+  background-color: #D6D2C4;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 10px;
+}
+.footer {
+  background-color: #F08A5D;
+  margin: 0;
+  padding: 45px;
+  display:flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.footer-linkedin {
+
+  display: block;
+  padding: 30px;
+
+}
+
+.footer-twitter {
+  display: block;
+  padding: 30px;
+}
+
+.footer-git {
+  display: block;
+
+  padding: 30px;
+}
+
+.hi {
+  font-size: 5em;
+  margin: 0;
+}
+.main-whole {
+  padding-top: 100px;
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  z-index: 5;
+  padding-bottom: 100px;
+}
+
+.main1 {
+  flex: 1 50%;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.main2 {
+  flex: 1 50%;
+  float:right;
+}
+
+.nav1 {
+  flex: 1 50%;
+  color: #463333;
+
+  display: block;
+  text-decoration: none;
+}
+
+.nav2 {
+  flex:  1 50%;
+  padding: 6px;
+}
+
+.navbar {
+  float: right;
+  list-style-type: none;
+  padding-right: 40px
+
+}
+
+.nav {
+  margin-top: 5px;
+}
+
+.randi-career {
+  float: left;
+  list-style-type: none;
+  padding-left: 20px;
+  font-size: 20px;
+  align-self: flex-end;
+  padding-top: 20px;
+}
+
+.randi-photo {
+  width: 450px;
+  padding-top:100px;
+  padding-left: 100px;
+}
+
+.randi-title {
+  float:left;
+  padding-left: 20px;
+  list-style-type: disc;
+
+  font-family: 'Architects Daughter', cursive;
+  font-size: 40px;
+}
+
+.buttons a {
+  display:block;
+	width:100%;
+	padding-top:50%;
+  padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+  text-shadow: 2px 2px black;
+
+  color: #EEECDA;
+
+}
+.resume-button {
+  background-color: #F08A5D;
+  border: none;
+  padding: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 15px;
+  list-style-type: none;
+  border-radius: 50%;
+
+}
+
+.resume-button a:hover {
+  color: #EDC988;
+}
+
+.work-button {
+  background-color: #B83B5E;
+  border: none;
+  padding: 30px;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 15px;
+  list-style-type: none;
+  border-radius: 50%;
+}
+
+
+.work-button a:hover {
+  color: #EDC988;
+}
+
+.contact-button {
+  background-color: #94B4A4;
+  border: none;
+  padding: 30px;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 15px;
+  list-style-type: none;
+  border-radius: 50%;
+}
+
+.contact-button a:hover {
+  color: #EDC988;
+}
+
+.buttons {
+  padding-right: 40px;
+  display: inline-block;
+  padding-left: 0;
+}

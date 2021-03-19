@@ -32,8 +32,8 @@ nav {
 	text-align: center;
 	font-size: 10px;
 }
-.footer {
-	background-color: #582f64;
+.footer-home {
+	background-color: #f09066;
 	margin: 0;
 	padding: 45px;
 	display: flex;
@@ -135,12 +135,12 @@ nav {
 	padding-bottom: 50%;
 	line-height: 1em;
 	margin-top: -0.5em;
-	text-shadow: 2px 2px black;
+	text-shadow: 1px 1px black;
 
 	color: #eeecda;
 }
 .resume-button {
-	background-color: #f08a5d;
+	background-color: #f09066;
 	border: none;
 	padding: 30px;
 	text-decoration: none;
@@ -152,7 +152,8 @@ nav {
 }
 
 .resume-button a:hover {
-	color: #edc988;
+	color: #f3c8b6;
+	text-shadow: 1px 1px black;
 }
 
 .work-button {
@@ -169,7 +170,7 @@ nav {
 }
 
 .work-button a:hover {
-	color: #edc988;
+	color: #f7bacb;
 }
 
 .contact-button {
@@ -186,7 +187,7 @@ nav {
 }
 
 .contact-button a:hover {
-	color: #edc988;
+	color: #d3ffe9;
 }
 
 .buttons {

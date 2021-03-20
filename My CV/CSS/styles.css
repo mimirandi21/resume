@@ -296,3 +296,21 @@ nav {
 	display: inline-block;
 	padding-left: 0;
 }
+
+.projectBox {
+	display: flex;
+	padding-left: 10em;
+	align-items: center;
+	justify-items: center;
+	box-shadow: #b83b5e;
+	border: #b83b5e;
+}
+
+.projectVideo {
+	flex: 1 50%;
+}
+
+.projectInfo {
+	flex: 2 50%;
+	padding-right: 40px;
+}

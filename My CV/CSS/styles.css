@@ -9,7 +9,8 @@ a:hover {
 	color: #b83b5e;
 }
 
-body {
+html body {
+	display: block;
 	height: 100%;
 	background-color: #eeecda;
 	font-family: "Balsamiq Sans", cursive;
@@ -20,8 +21,13 @@ h1 {
 	font-family: "Architects Daughter", cursive;
 }
 
+.sticky {
+	position: sticky;
+	top: 0;
+}
 nav {
-	position: fixed;
+	margin-top: 2em;
+	/* position: fixed; */
 	display: flex;
 	width: 100%;
 	align-items: flex-end;
@@ -34,6 +40,11 @@ nav {
 	font-size: 10px;
 }
 
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
 .footer-contacts {
 	background-color: #94b4a4;
 	margin: 0;
@@ -92,7 +103,6 @@ nav {
 
 .footer-git {
 	display: block;
-
 	padding: 30px;
 }
 
@@ -106,7 +116,34 @@ nav {
 	margin: 0;
 }
 .main-whole {
-	padding-top: 100px;
+	/* padding-top: 20px; */
+	display: flex;
+	width: 100%;
+	align-items: flex-end;
+	z-index: 5;
+	padding-bottom: 100px;
+}
+
+.contact-whole {
+	/* padding-top: 100px; */
+	display: flex;
+	width: 100%;
+	align-items: flex-end;
+	z-index: 5;
+	padding-bottom: 100px;
+}
+
+.project-whole {
+	/* padding-top: 100px; */
+	display: flex;
+	width: 100%;
+	align-items: flex-end;
+	z-index: 5;
+	padding-bottom: 100px;
+}
+
+.about-whole {
+	/* padding-top: 100px; */
 	display: flex;
 	width: 100%;
 	align-items: flex-end;
@@ -150,6 +187,11 @@ nav {
 
 .navmain:hover {
 	color: #f09066;
+	text-shadow: 1px 1px black;
+}
+
+.navproject:hover {
+	color: #b83b5e;
 	text-shadow: 1px 1px black;
 }
 

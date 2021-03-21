@@ -297,20 +297,25 @@ nav {
 	padding-left: 0;
 }
 
+.projects-whole {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .projectBox {
 	display: flex;
+	flex-direction: row;
 	padding-left: 10em;
 	align-items: center;
 	justify-items: center;
-	box-shadow: #b83b5e;
-	border: #b83b5e;
 }
 
 .projectVideo {
 	flex: 1 50%;
+	padding: 10px;
 }
 
 .projectInfo {
 	flex: 2 50%;
-	padding-right: 40px;
+	padding: 10px;
 }

@@ -30,6 +30,10 @@ h1 {
 	font-family: "Architects Daughter", cursive;
 }
 
+h2 {
+	font-size: 2vw;
+}
+
 .sticky {
 	position: sticky;
 	top: 0;
@@ -38,7 +42,6 @@ h1 {
 	/* min-width: 100%; */
 }
 nav {
-	margin-top: 2em;
 	/* position: fixed; */
 	display: flex;
 	/* width: 100%; */
@@ -56,7 +59,7 @@ nav {
 .footer {
 	position: absolute;
 	width: 100%;
-	height: 30px;
+	height: 10vh;
 	bottom: 0;
 }
 .footer-contacts {
@@ -91,7 +94,7 @@ nav {
 
 .footer-home {
 	position: absolute;
-	bottom: 0;
+	bottom: 0vh;
 	width: 100%;
 	background-color: #e0976d;
 	margin: 0;
@@ -139,15 +142,19 @@ nav {
 }
 
 .hi {
-	font-size: 5em;
+	font-size: 7vw;
 	margin: 0;
 }
 .main-whole {
-	min-height: 100%;
+	position: fixed;
+	top: 10vh;
+	bottom: 10vh;
 	display: flex;
 	width: 100%;
-	align-items: flex-end;
+	align-items: center;
 	z-index: 5;
+	flex-direction: row;
+	justify-content: center;
 }
 
 .contact-div {
@@ -187,7 +194,7 @@ nav {
 	padding-bottom: 250px;
 }
 
-.main1 {
+/* .main1 {
 	display: inline-block;
 	vertical-align: top;
 	width: 45%;
@@ -207,6 +214,15 @@ nav {
 	width: 35%;
 	height: 80vh;
 	padding-top: 5%;
+} */
+
+.main2,
+.main3 {
+	flex: 1;
+}
+
+.main1 {
+	flex: 2;
 }
 
 .nav1 {
@@ -226,10 +242,6 @@ nav {
 	float: right;
 	list-style-type: none;
 	padding-right: 40px;
-}
-
-.nav {
-	margin-top: 5px;
 }
 
 .navmain:hover {
@@ -257,13 +269,12 @@ nav {
 	list-style-type: none;
 	padding-left: 20px;
 	font-size: 20px;
-	align-self: flex-end;
 	padding-top: 20px;
 }
 
 .randi-photo {
-	width: 45%;
-	padding-top: 100px;
+	width: 60%;
+
 	padding-left: 20%;
 }
 
@@ -367,4 +378,9 @@ nav {
 .projectInfo {
 	flex: 2 50%;
 	padding: 10px;
+}
+
+ul {
+	margin-block-start: 0;
+	margin-block-end: 0;
 }

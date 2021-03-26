@@ -20,12 +20,6 @@ body {
 	padding: 0;
 }
 
-.contact-div {
-	width: 100%;
-	height: 100%;
-	text-align: center;
-}
-
 .container {
 	min-height: 100%;
 	min-width: 100%;
@@ -67,7 +61,7 @@ nav {
 	margin-top: -206px;
 }
 .footer-contacts {
-	width: 100%;
+	max-width: 100%;
 	background-color: #94b4a4;
 	margin: 0;
 	padding: 45px;
@@ -78,7 +72,7 @@ nav {
 
 .footer-about {
 	width: 100%;
-	background-color: #b83b5e;
+	background-color: #e0976d;
 	margin: 0;
 	padding: 45px;
 	display: flex;
@@ -149,6 +143,11 @@ nav {
 	padding-bottom: 250px;
 }
 
+.contact-div {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
 .contact-whole {
 	/* padding-top: 100px; */
 	display: flex;
@@ -156,6 +155,11 @@ nav {
 	align-items: flex-end;
 	z-index: 5;
 	padding-bottom: 250px;
+	overflow: hidden;
+}
+
+.contactlink:hover {
+	color: #94b4a4;
 }
 
 .projects-whole {
@@ -212,6 +216,16 @@ nav {
 
 .navmain:hover {
 	color: #e0976d;
+	text-shadow: 1px 1px black;
+}
+
+.navabout:hover {
+	color: #e0976d;
+	text-shadow: 1px 1px black;
+}
+
+.navcontact:hover {
+	color: #94b4a4;
 	text-shadow: 1px 1px black;
 }
 
